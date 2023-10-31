@@ -1,0 +1,65 @@
+all_skill = [
+    'Horseshoe',
+    'Acid Bottle',
+    'Energy Core',
+    'Gold Molecule',
+    'Hammer',
+    'Pocket Watch',
+    'Life Insurance',
+    'Soundwave Field',
+    'Lightsaber',
+    'Guard Badge',
+    'Captain Shield',
+    'Black Hawk',
+    'White Eagle',
+    'Drill',
+    'Energy Drink',
+    'Shotgun',
+    'Revolver',
+    'Ronin Oyoroi',
+    'Captain Boot',
+    'Wanted Poster',
+    'Rocket',
+    'Hi-Power Magnet',
+    'Ammo Thruster',
+    'Whip',
+    'Power Gauntlet',
+    'HE Fuel',
+    'Laser Beam',
+    'end'
+]
+
+passive_skill = [
+    'Energy Core',
+    'Gold Molecule',
+    'Pocket Watch',
+    'Life Insurance',
+    'Energy Drink',
+    'Captain Boot',
+    'Wanted Poster',
+    'Hi-Power Magnet',
+    'Ammo Thruster',
+    'Power Gauntlet',
+    'HE Fuel',
+    'Ronin Oyoroi',
+]
+
+evolve_requirement = {
+    'Revolver': 'Wanted Poster',
+    'Horseshoe': 'Hi-Power Magnet',
+    'Hammer': 'Life Insurance',
+    'Drill': 'Ammo Thruster',
+    'Black Hawk': 'White Eagle',
+    'White Eagle': 'Black Hawk',
+    'Soundwave Field': 'Energy Drink',
+    'Guard Badge': 'Pocket Watch',
+    'Laser Beam': 'Energy Core',
+    'Acid Bottle': 'Gold Molecule',
+    'Rocket': 'HE Fuel',
+    'Captain Shield': 'Captain Boot',
+    'Shotgun': 'Power Gauntlet',
+    'Whip': 'Life Insurance',
+    'Lightsaber': 'Ronin Oyoroi'
+}
+
+active_skill = [s for s in all_skill if s not in passive_skill and s != 'end']
