@@ -12,8 +12,4 @@ The "SteamLit Skill Recommendation for Game" is a GitHub repository containing c
 
 - **Game Insights**: Users can gain insights into their gaming strengths and weaknesses, helping them make informed decisions on what to play and how to improve.
 
-## Getting Started
-
-To get started with the SteamLit Skill Recommendation for Game, follow these steps:
-
-1. **Clone the Repository**: Clone the GitHub repository to your local machine using the following command:
+![image](https://github.com/hungds1996/steamlit_skill_recommendation_for_game/assets/33818152/68bcf3f9-88a1-4019-9903-009e9e455038)
